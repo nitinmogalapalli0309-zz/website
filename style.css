@@ -23,7 +23,7 @@ body{
     color: white;
 }
 #menu{
-    width: 100%;
+    width: 100vh;
     position: fixed;
     overflow: hidden;
     display: flex;
