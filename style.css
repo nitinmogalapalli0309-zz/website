@@ -10,10 +10,16 @@
     .message{
         display: block;
     }
+    *{
+        display: none;
+    }
 }
-@media screen and (max-width: 79px){
+@media screen and (max-width: 790px){
     .message{
         display: block;
+    }
+    *{
+        display: none;
     }
 }
 .message{
