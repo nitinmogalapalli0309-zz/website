@@ -6,6 +6,42 @@
     font-family: "Vanilla";
     src: url(../assets/Vanilla.ttf);
 }
+@media(max-width:900px){
+    .welcome .text{
+        width: 100%;
+        text-align: center;
+        height: 100%;
+        justify-content: space-around;
+        padding-top: 270px;
+    }
+    .welcome .img{
+        width: 0;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    body{
+        margin: 0;
+        font-size: small;
+    }
+    #menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #menu ul li a{
+        position: relative;
+        right: -35px;
+    }
+    .wel-text h1{
+        width: 100%;
+        font-size: large;
+    }
+    .wel-text h2{
+
+    }
+}
 body{
     margin: 0;
     font-family: "Roboto", sans-serif;
