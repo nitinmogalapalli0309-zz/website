@@ -6,14 +6,18 @@
     font-family: "Vanilla";
     src: url(assets/Vanilla.ttf);
 }
-@media screen and (max-width: 481px){
-    *{
-        display: flex;
-        flex-direction: row;
+@media screen and (max-width: 480px){
+    .message{
+        display: block;
     }
-    body{
-        width: 450px;
+}
+@media screen and (max-width: 79px){
+    .message{
+        display: block;
     }
+}
+.message{
+    display: none;
 }
 html{
     scroll-behavior: smooth;
