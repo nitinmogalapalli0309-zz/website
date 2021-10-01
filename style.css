@@ -6,25 +6,6 @@
     font-family: "Vanilla";
     src: url(assets/Vanilla.ttf);
 }
-@media screen and (max-width: 480px){
-    .message{
-        display: block;
-    }
-    *{
-        display: none;
-    }
-}
-@media screen and (max-width: 790px){
-    .message{
-        display: block;
-    }
-    *{
-        display: none;
-    }
-}
-.message{
-    display: none;
-}
 html{
     scroll-behavior: smooth;
 }
