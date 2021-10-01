@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Maylov";
+    src: url(assets/Maylov.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Vanilla";
+    src: url(assets/Vanilla.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+}
+#menu{
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+    background-color: black;
+}
+#menu img{
+    height: 50px;
+    margin: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    position: relative;
+    left: -15%;
+    border-radius: 10px;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    margin-right: 30px;
+    padding: 5px;
+}
+#menu ul li{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    letter-spacing: 2.5px;
+    background-image: url('../../assets/menubox.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+#menu ul li .cpage{
+    color: yellow;
+}
+#codeOfConduct{
+    position: relative;
+    top: 65px;
+}
+#codeOfConduct .heading{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 50px;
+    font-size: 200%;
+    /*background: 
+    -webkit-linear-gradient(green,red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+}
+#codeOfConduct .data .highlight{
+    color: orange;
+}
+/*continue here*/
+.foot{
+    padding: 3%;
+    font-family: "Roboto", cursive;
+    font-size: 90%;
+    height: auto;
+    background-color: rgba(41, 41, 41, 0.541);
+}
+.foot1{
+    text-align: center;
+}
+.foot1:hover{
+    color: green;
+    text-decoration: underline;
+}
+.foot2{
+    float: center;
+    text-align: center;
+}
+.foot3{
+    text-align: center;
+}
