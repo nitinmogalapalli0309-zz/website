@@ -144,6 +144,10 @@ body{
         word-break: keep-all;
         font-size: smaller;
         padding: 15px;
+        padding-top: 0;
+    }
+    #menu{
+        position: fixed;
     }
     #intro{
         display: flex;

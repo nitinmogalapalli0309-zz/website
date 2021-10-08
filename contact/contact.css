@@ -146,7 +146,8 @@ body{
     body{
         word-wrap: normal;
         word-break: keep-all;
-        padding: 20px;
+        padding: 15px;
+        padding-top: 0;
         font-size: smaller;
     }
 }

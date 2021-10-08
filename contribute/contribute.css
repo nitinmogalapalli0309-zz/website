@@ -149,28 +149,6 @@ a{
     body{
         word-wrap: normal;
         word-break: keep-all;
-    }
-    .welcome{
-        display: flex;
-        flex-direction: row;
-        height: max-content;
-    }
-    .welcome .text{
-        width: 100vw;
-        padding: 0;
-        text-align: center;
-    }
-    .welcome .text .wel-text{
-        width: 100%;
-    }
-    .welcome .img{
-        width: 0;
-    }
-    .pic1{
-        content: none;
-        width: 0;
-    }
-    body{
         font-size: smaller;
     }
 }
@@ -178,17 +156,6 @@ a{
     body{
         word-wrap: normal;
         word-break: keep-all;
-    }
-    .welcome{
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-    }
-    .img, .wel-text{
-        flex: 100%;
-    }
-    .wel-text{
-        height: 60vh;
     }
 }
 @media screen and (max-width: 600px){
