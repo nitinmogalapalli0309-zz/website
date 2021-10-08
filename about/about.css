@@ -143,16 +143,22 @@ body{
         word-wrap: normal;
         word-break: keep-all;
         font-size: smaller;
+        padding: 15px;
     }
     #intro{
         display: flex;
-        flex-direction: row;
-        padding: 20px;
+        flex-direction: column;
         justify-content: space-around;
+        height: 120vh;
+        padding-top: 30px;
     }
     #intro .picture{
-        float: left;
-        width: 50%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #intro .text{
+        width: fit-content;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width:480px){
