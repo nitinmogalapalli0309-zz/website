@@ -342,9 +342,11 @@ h1{
     .navsmall {
       display: block;
       cursor: pointer;
+      width: 20%;
     }
     #menu img {
-      margin: 5px auto;
+      margin: 0;
+      width: 80%;
     }
     #menu ul li a {
       color: cyan;
